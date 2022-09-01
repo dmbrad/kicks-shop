@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312532503545",
+    "firebase_url": "https://kicks-shop-6b73f-default-rtdb.firebaseio.com",
+    "project_id": "kicks-shop-6b73f",
+    "storage_bucket": "kicks-shop-6b73f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312532503545:android:d8a571acb4059236ee8b28",
+        "android_client_info": {
+          "package_name": "com.example.kicks_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312532503545-tn9v0s994ulbeeenun8t8e99hmgvo6l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKZo0cNAHYbVbnUYkC52-pseFKNlNNR14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312532503545-tn9v0s994ulbeeenun8t8e99hmgvo6l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

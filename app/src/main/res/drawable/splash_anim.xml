@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+<item android:drawable="@drawable/offwhite" android:duration="500"/>
+<item android:drawable="@drawable/airjordanbred" android:duration="500"/>
+<item android:drawable="@drawable/airforcecactusjack" android:duration="500"/>
+<item android:drawable="@drawable/sbdunk" android:duration="500"/>
+<item android:drawable="@drawable/sbpanda" android:duration="500"/>
+<item android:drawable="@drawable/kicks" android:duration="3000"/>
+</animation-list>

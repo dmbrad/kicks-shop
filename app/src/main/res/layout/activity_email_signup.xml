@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/brad"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Email_signup"
+    tools:ignore="ExtraText">
+    >
+
+  <LinearLayout
+      android:layout_width="416dp"
+      android:layout_height="489dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="#F4071B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/email_edt"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_width="371dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_black_dark_blue5_t5"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="25dp" />
+
+    <EditText
+        android:ems="10"
+        android:hint="create password"
+        android:inputType="textPassword"
+        android:padding="25dp"
+        android:id="@+id/pass_edt"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_width="371dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_black_dark_blue5_t5"
+
+         />
+
+    <EditText
+     android:maxLines="1"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_width="371dp"
+    android:layout_height="63dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/round_black_dark_blue5_t5"
+        android:id="@+id/passconfirm_edt"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:padding="25dp" />
+
+    <Button
+        android:id="@+id/sign_up_btn2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20dp"
+        android:background="@drawable/round_back_primary_15"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="true"
+        android:text="Sign Up"
+        android:textColor="#FBF7F7" />
+
+
+
+  </LinearLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

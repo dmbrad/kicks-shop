@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" KICKS SHOP"
+            android:textSize="30dp"
+            android:textColor="#456"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:gravity="center_horizontal" />
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:rowCount="10"
+         android:columnCount="2"
+         android:layout_margin="5dp"
+         android:alignmentMode="alignMargins"
+         android:layout_gravity="center_horizontal"
+         android:columnOrderPreserved="false">
+
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/img1"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/airforcecactusjack" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:text="cactus jack"
+                     android:textColor="@color/teal_200"
+                     android:textSize="20dp"
+                     android:textStyle="italic|bold" />
+
+             </LinearLayout>
+
+     </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/img3"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/jordanonepanda" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:text="air jordan 1"
+                     android:textColor="@color/teal_200"
+                     android:textSize="20dp"
+                     android:textStyle="italic|bold" />
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img4"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/millitaryblack" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="Jordan4
+"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img5"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/sbdunk" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="sb dunk
+"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img6"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/luisvuitton" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="Luis Viton
+"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img7"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/formalleathershoes" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="Italian shoes
+"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/img8"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/pradablack" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:text="Prada shoes
+"
+                     android:textColor="@color/white"
+                     android:textSize="16dp"
+                     android:textStyle="italic|bold" />
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img9"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/addidasyeezy" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="Addidas yeezy"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+             <LinearLayout
+                 android:layout_width="150dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center">
+
+                 <ImageView
+                     android:id="@+id/img10"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/blackmcqueen" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textStyle="italic|bold"
+                     android:text="Alexander Mcqueen"
+                     android:textSize="16dp"
+                     android:textColor="@color/white"
+                     android:layout_marginTop="20dp"/>
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_marginLeft="10dp"
+             android:layout_width="160dp"
+             android:layout_height="160dp"
+             app:cardCornerRadius="90dp"
+             android:layout_marginTop="40dp"
+             app:cardElevation="5dp"
+             app:cardBackgroundColor="@color/black"
+             android:layout_margin="10dp">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/img2"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="18dp"
+                     android:src="@drawable/plainwhite" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="20dp"
+                     android:text="airforce 1"
+                     android:textColor="@color/teal_200"
+                     android:textSize="20dp"
+                     android:textStyle="italic|bold" />
+
+             </LinearLayout>
+
+         </androidx.cardview.widget.CardView>
+     </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

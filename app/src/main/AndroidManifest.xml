@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kicks_shop">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kicksshop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kicksshop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kicks_shop"
+        tools:targetApi="31">
+        <activity
+            android:name=".shop"
+            android:exported="false" />
+        <activity android:name=".Modeofpayment"
+            android:exported="false"
+            />
+        <activity android:name=".Myhome"
+            android:exported="false"
+            />
+        <activity android:name=".Luisviton"
+            android:exported="false"
+            />
+        <activity android:name=".Login"
+            android:exported="false"
+            />
+        <activity android:name=".Email_signup"
+            android:exported="false"
+            />
+        <activity
+            android:name=".sbcactusjack"
+            android:exported="false" />
+        <activity
+            android:name=".jordan_redandblack"
+            android:exported="false" />
+        <activity
+            android:name=".fragment"
+            android:exported="false" />
+        <activity
+            android:name=".airforceblack"
+            android:exported="false" />
+        <activity
+            android:name=".alexanderwhite"
+            android:exported="false" />
+        <activity
+            android:name=".alexanderblack"
+            android:exported="false" />
+        <activity
+            android:name=".alexandermcqueen"
+            android:exported="false" />
+        <activity
+            android:name=".chanelcalfskin"
+            android:exported="false" />
+        <activity
+            android:name=".channelshoes"
+            android:exported="false" />
+        <activity
+            android:name=".pradashoes"
+            android:exported="false" />
+        <activity
+            android:name=".pradaboots"
+            android:exported="false" />
+        <activity
+            android:name=".prada"
+            android:exported="false" />
+        <activity
+            android:name=".yeezyfoam"
+            android:exported="false" />
+        <activity
+            android:name=".yeezyslide"
+            android:exported="false" />
+        <activity
+            android:name=".yeezy"
+            android:exported="false" />
+        <activity
+            android:name=".yeezyproducts"
+            android:exported="false" />
+        <activity
+            android:name=".italianoxfordshoe"
+            android:exported="false" />
+        <activity
+            android:name=".airforceWhite"
+            android:exported="false" />
+        <activity
+            android:name=".jordanoneredandblack"
+            android:exported="false" />
+        <activity
+            android:name=".jordanoneolivetoe"
+            android:exported="false" />
+
+        <activity
+            android:name=".jordanonepanda"
+            android:exported="false" />
+        <activity
+            android:name=".airjordanone"
+            android:exported="false" />
+        <activity
+            android:name=".formalleathershoe"
+            android:exported="false" />
+        <activity
+            android:name=".ceremonialshoes"
+            android:exported="false" />
+        <activity
+            android:name=".italianstylishshoe"
+            android:exported="false" />
+        <activity
+            android:name=".italianofficialshoes"
+            android:exported="false" />
+        <activity
+            android:name=".sbuniversityblue"
+            android:exported="false" />
+        <activity
+            android:name=".sbproskate"
+            android:exported="false" />
+        <activity
+            android:name=".sbpanda"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sbdunk"
+            android:exported="false" />
+        <activity
+            android:name=".lightening"
+            android:exported="false" />
+        <activity
+            android:name=".offwhite"
+            android:exported="false" />
+        <activity
+            android:name=".millitaryblack"
+            android:exported="false" />
+        <activity
+            android:name=".jordan4"
+            android:exported="false" />
+        <activity
+            android:name=".cactusjack"
+            android:exported="false" />
+        <activity
+            android:name=".bred"
+            android:exported="false" />
+        <activity
+            android:name=".airforceOne"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>
